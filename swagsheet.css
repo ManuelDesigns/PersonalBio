@@ -1,0 +1,91 @@
+.nav{
+  background-color: #73b6c9;
+padding: 10px;
+text-align: center;
+}
+
+a.navigation:hover{
+text-decoration: none;
+  background-color: #73b6c9;
+  color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-right-color: rgb(115, 182, 201);
+  border-left-color: rgb(115, 182, 201);
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+a.navigation{
+  text-decoration: none;
+  font-family: Impact, Charcoal, sans-serif;
+  font-style: italic;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#bio1{
+  background-color: lightblue;
+  padding: 50px 300px 50px 300px;
+  font-size: 120%;
+}
+
+#intrest{ font-size: 125%;
+    color: Black;
+      text-align: left;
+      background-color: rgba(153, 235, 255,0.3);
+      padding-left: 500px;
+      padding-top: 98px;
+      padding-bottom: 98px;}
+
+div {background-color: black;}
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {display: inline-block;}
+ul li:hover {background: lightblue; }
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: grey;
+  display: block;
+}
+ul li ul li a {display:block !important;}
+ul li ul li:hover {background: lightgrey;
+}
+/*intrest page*/
+#personalbio {font-family: "Courier New", Courier, monospace;}
+
+iframe {
+  border-style: dashed;
+  border-width: thick;
+  padding: 10px 10px 10px 10px;
+}
+.edit{
+  border-right: dashed;
+  border-width: thick;
+  padding-right: 50px
+}
+
+#dev{
+  color: white;
+}
